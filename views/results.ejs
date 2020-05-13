@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<body id="result">
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<h1>Result Page!!!</h1>
+<% data.Search.forEach( (movie) => {%>
+    <div class="col-lg-4 col-sm-6" id="items">
+        <img id="poster" src="<%=movie.Poster%>">
+        <h4 id="title"><%=movie.Title%></h4>
+        <label>Year of Release: <%=movie.Year%></label><br/>
+        <label>Type: <%=movie.Type%></label>
+    </div>
+<%});%>
+<div>
+<form action="/results" method="GET" id="frmres">
+    <div class="form-group row">
+        <div class="col-md-10">
+            <h1 id="searchlabel1">Search for another movie</h1>
+        </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <input id="inputtxt1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="searchQuery" place holder="Enter the name of movie">
+      </div>
+    </div>
+        <div class="row justify-content-center"></div>
+      <div class="col-sm-10 ">
+        <input id ="searchbtn1" type="submit" class="btn btn-secondary btn-lg" name="Search">
+      </div>
+    </div>
+  </form>
+</div>
+</body>

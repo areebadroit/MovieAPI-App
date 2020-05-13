@@ -1,0 +1,59 @@
+#poster{
+    height: 70%;
+    width: 100%
+}
+#result{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 2%;
+}
+#home{
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #a9a3ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+#items{
+    height:450px;
+    width:300px;
+    margin: 10px;
+    padding:2px;
+    border: 1px solid black;
+}
+#title{
+    text-align: center;
+}
+#frm{
+    margin-top : 18%;
+    margin-left : 32%;
+    margin-right : 30%;
+}
+#frmres{
+    margin-left : 32%;
+    margin-right : 30%;
+}
+#searchbtn{
+    margin-left: 40%;
+    background: #20002c;
+    color: whitesmoke;
+}
+#searchbtn1{
+    margin-left: 40%;
+    background: #2c3e50;
+    color: whitesmoke;
+}
+#searchlabel{
+    margin-left: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#searchlabel1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inputtxt{
+    background: #cbb4d4;
+}
+#inputtxt1{
+    background: #2c3e50;
+}
