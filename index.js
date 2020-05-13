@@ -26,8 +26,13 @@ app.get("/results", (req, res) => {
     });
 });
 
+const DEFAULT_PORT = 3000;
+let PEER_PORT;
 
-
+if (process.env.GENERATE_PEER_PORT === 'true') {
+	PEER_PORT = DEFAULT_PORT + 1 - 1000 + Math.ceil(Math.random() * 1000);
+}
+const PORT = PEER_PORT || DEFAULT_PORT;
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Movie app started on port 3000");
+    console.log(`Movie app started on port: ${PORT}`);
 });
