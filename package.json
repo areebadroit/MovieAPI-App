@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/areebadroit/MovieAPI-App/issues"
   },
-  "homepage": "https://github.com/areebadroit/MovieAPI-App#readme",
+  "homepage": "https://github.com/areebadroit/MovieAPI-App/index.js",
   "dependencies": {
     "ejs": "^3.1.2",
     "express": "^4.17.1",
